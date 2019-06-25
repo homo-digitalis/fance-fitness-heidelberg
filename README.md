@@ -3,7 +3,10 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 
+ng build --prod
+sudo ngh --dir=dist/fance-fitness-heidelberg
 
+old:
 ng build --prod --base-href https://homo-digitalis.github.io/fance-fitness-angular/ --output-path docs
 
 
