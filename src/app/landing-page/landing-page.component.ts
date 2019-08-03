@@ -44,6 +44,10 @@ export class LandingPageComponent implements OnInit {
       console.log(queryParams.day);
     });
   }
+
+  public clickContact() {
+    this.router.navigateByUrl('contact');
+  }
 }
 
 
